@@ -1,8 +1,3 @@
----
-title: Laravel Integration
-description: Facade, Eloquent casting, and dependency injection for Laravel applications.
----
-
 SemVer provides first-class Laravel integration with automatic service registration, a facade, and Eloquent attribute casting.
 
 ## Installation

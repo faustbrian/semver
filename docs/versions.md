@@ -1,8 +1,3 @@
----
-title: Version Operations
-description: Parse, compare, and manipulate semantic versions with the immutable Version class.
----
-
 The `Version` class is an immutable representation of a semantic version, providing parsing, comparison, and manipulation methods.
 
 ## Parsing Versions

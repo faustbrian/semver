@@ -1,8 +1,3 @@
----
-title: Getting Started
-description: Full-featured Semantic Versioning 2.0.0 implementation for PHP with parsing, comparison, constraints, and version operations.
----
-
 SemVer is a complete implementation of [Semantic Versioning 2.0.0](https://semver.org/) for PHP, providing parsing, comparison, constraints, and version operations with full Laravel integration.
 
 ## Requirements

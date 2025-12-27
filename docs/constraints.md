@@ -1,8 +1,3 @@
----
-title: Version Constraints
-description: Match versions against constraints using tilde, caret, ranges, wildcards, and logical operators.
----
-
 The `Constraint` class provides powerful version matching with support for npm/Composer-style constraints.
 
 ## Parsing Constraints

@@ -1,8 +1,3 @@
----
-title: Version Collections
-description: Filter, sort, and query collections of versions with constraint matching and fluent methods.
----
-
 The `VersionCollection` class provides a fluent interface for working with multiple versions, including filtering, sorting, and constraint matching.
 
 ## Creating Collections
