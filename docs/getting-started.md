@@ -87,7 +87,7 @@ This package fully implements the [SemVer 2.0.0 specification](https://semver.or
 
 ## Next Steps
 
-- [Version Operations](/semver/versions/) - Parsing, comparison, and manipulation
-- [Constraints](/semver/constraints/) - Tilde, caret, ranges, and wildcards
-- [Collections](/semver/collections/) - Filtering and sorting version lists
-- [Laravel Integration](/semver/laravel/) - Facade, casting, and service container
+- [Version Operations](./versions.md) - Parsing, comparison, and manipulation
+- [Constraints](./constraints.md) - Tilde, caret, ranges, and wildcards
+- [Collections](./collections.md) - Filtering and sorting version lists
+- [Laravel Integration](./laravel.md) - Facade, casting, and service container
