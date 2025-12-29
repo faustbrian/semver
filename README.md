@@ -48,14 +48,14 @@ If you discover any security related issues, please use the [GitHub security rep
 
 The MIT License. Please see [License File](LICENSE.md) for more information.
 
-[ico-tests]: https://github.com/faustbrian/semver/actions/workflows/quality-assurance.yaml/badge.svg
+[ico-tests]: https://git.cline.sh/faustbrian/semver/actions/workflows/quality-assurance.yaml/badge.svg
 [ico-version]: https://img.shields.io/packagist/v/cline/semver.svg
 [ico-license]: https://img.shields.io/badge/License-MIT-green.svg
 [ico-downloads]: https://img.shields.io/packagist/dt/cline/semver.svg
 
-[link-tests]: https://github.com/faustbrian/semver/actions
+[link-tests]: https://git.cline.sh/faustbrian/semver/actions
 [link-packagist]: https://packagist.org/packages/cline/semver
 [link-downloads]: https://packagist.org/packages/cline/semver
-[link-security]: https://github.com/faustbrian/semver/security
-[link-maintainer]: https://github.com/faustbrian
+[link-security]: https://git.cline.sh/faustbrian/semver/security
+[link-maintainer]: https://git.cline.sh/faustbrian
 [link-contributors]: ../../contributors
