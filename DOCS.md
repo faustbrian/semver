@@ -1,10 +1,12 @@
 ## Table of Contents
 
-1. Overview (`docs/README.md`)
-2. Collections (`docs/collections.md`)
-3. Constraints (`docs/constraints.md`)
-4. Laravel (`docs/laravel.md`)
-5. Versions (`docs/versions.md`)
+1. [Overview](#doc-docs-readme) (`docs/README.md`)
+2. [Collections](#doc-docs-collections) (`docs/collections.md`)
+3. [Constraints](#doc-docs-constraints) (`docs/constraints.md`)
+4. [Laravel](#doc-docs-laravel) (`docs/laravel.md`)
+5. [Versions](#doc-docs-versions) (`docs/versions.md`)
+<a id="doc-docs-readme"></a>
+
 SemVer is a complete implementation of [Semantic Versioning 2.0.0](https://semver.org/) for PHP, providing parsing, comparison, constraints, and version operations with full Laravel integration.
 
 ## Requirements
@@ -89,10 +91,12 @@ This package fully implements the [SemVer 2.0.0 specification](https://semver.or
 
 ## Next Steps
 
-- [Version Operations](./versions.md) - Parsing, comparison, and manipulation
-- [Constraints](./constraints.md) - Tilde, caret, ranges, and wildcards
-- [Collections](./collections.md) - Filtering and sorting version lists
-- [Laravel Integration](./laravel.md) - Facade, casting, and service container
+- [Version Operations](#doc-docs-versions) - Parsing, comparison, and manipulation
+- [Constraints](#doc-docs-constraints) - Tilde, caret, ranges, and wildcards
+- [Collections](#doc-docs-collections) - Filtering and sorting version lists
+- [Laravel Integration](#doc-docs-laravel) - Facade, casting, and service container
+
+<a id="doc-docs-collections"></a>
 
 The `VersionCollection` class provides a fluent interface for working with multiple versions, including filtering, sorting, and constraint matching.
 
@@ -363,6 +367,8 @@ SemVer::maxSatisfying($versions, '^1.0.0'); // Version 1.5.0
 SemVer::minSatisfying($versions, '^1.0.0'); // Version 1.0.0
 ```
 
+<a id="doc-docs-constraints"></a>
+
 The `Constraint` class provides powerful version matching with support for npm/Composer-style constraints.
 
 ## Parsing Constraints
@@ -589,6 +595,8 @@ Constraint::parse('>=1.0.0-alpha')->isSatisfiedBy('1.0.0-beta'); // true
 | `\|\|` | OR | `1.x \|\| 2.x` |
 | `-` | Hyphen range | `1.2.3 - 2.0.0` |
 | `x`, `X`, `*` | Wildcard | `1.x`, `1.*` |
+
+<a id="doc-docs-laravel"></a>
 
 SemVer provides first-class Laravel integration with automatic service registration, a facade, and Eloquent attribute casting.
 
@@ -889,6 +897,8 @@ function categorizeChanges(array $releases): array
     return $categorized;
 }
 ```
+
+<a id="doc-docs-versions"></a>
 
 The `Version` class is an immutable representation of a semantic version, providing parsing, comparison, and manipulation methods.
 
