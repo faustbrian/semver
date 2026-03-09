@@ -1,10 +1,10 @@
 ## Table of Contents
 
-1. [Overview](#doc-docs-readme) (`docs/README.md`)
-2. [Collections](#doc-docs-collections) (`docs/collections.md`)
-3. [Constraints](#doc-docs-constraints) (`docs/constraints.md`)
-4. [Laravel](#doc-docs-laravel) (`docs/laravel.md`)
-5. [Versions](#doc-docs-versions) (`docs/versions.md`)
+1. [Overview](#doc-docs-readme)
+2. [Collections](#doc-docs-collections)
+3. [Constraints](#doc-docs-constraints)
+4. [Laravel](#doc-docs-laravel)
+5. [Versions](#doc-docs-versions)
 <a id="doc-docs-readme"></a>
 
 SemVer is a complete implementation of [Semantic Versioning 2.0.0](https://semver.org/) for PHP, providing parsing, comparison, constraints, and version operations with full Laravel integration.
